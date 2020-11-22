@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style/style.css">
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+
+  <script defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDfxWgIdeTLsoLTyPduZ-sckH0LzFPoBE&libraries=visualization&callback=initMap">
+  </script>
+
+  <div class="menu">
+    <div class="title">
+      Itinéraires
+    </div>
+
+    <div class="menu-item sel-radio travellers">
+      <div>Voyageur</div>
+      <ul>
+        <li onclick="toggleTraveller(0)">
+          <span>P & M</span>
+        </li>
+        <li onclick="toggleTraveller(1)">
+          <span>V</span>
+        </li>
+        <li onclick="toggleTraveller(2)">
+          <span>May & V</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="menu-item sel-radio zoom">
+      <div>Zoom</div>
+      <ul>
+        <li onclick="toggleZoom(0)">
+          <span>Monde</span>
+        </li>
+        <li onclick="toggleZoom(1)">
+          <span>Europe</span>
+        </li>
+        <li onclick="toggleZoom(2)">
+          <span>France</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="menu-item sel-check masks">
+      <div>Informations</div>
+      <ul>
+        <li onclick="toggleMask(0)">
+          <span>Heat map</span>
+        </li>
+        <li onclick="toggleMask(1)">
+          <span>Villes</span>
+        </li>
+        <li onclick="toggleMask(2)">
+          <span>Trajets</span>
+        </li>
+        <li onclick="toggleMask(3)">
+          <span>Pays visités</span>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="menu-item sel-radio voyages">
+      <div>Voyages</div>
+      <ul id="trip-list">
+      </ul>
+    </div>
+
+  </div>
+
+  <div id="map"></div>
+
+</body>
+
+</html>
