@@ -599,7 +599,7 @@
     "nom": "Singapour",
     "mois": 5,
     "annee": 2017,
-    "villes": ["Singapore"],
+    "villes": ["Singapour"],
     "pays": ["Singapore"],
     "voyageurs": ["V"],
     "link": "../ve/singapour"
@@ -623,7 +623,7 @@
     "nom": "Singapour, Bangkok",
     "mois": 2,
     "annee": 2018,
-    "villes": ["Singapore", "Bangkok"],
+    "villes": ["Singapour", "Bangkok"],
     "pays": ["Singapore", "Thailand"],
     "voyageurs": ["PM", "V"],
     "link": "../ve/singapour2"
@@ -675,19 +675,12 @@
     "voyageurs": ["PM"],
     "link": "../r1/espagne"
   }, {
-    "nom": "Dubai",
+    "nom": "Dubai, Bangkok",
     "mois": 5,
     "annee": 2019,
-    "villes": ["Dubai", "Abu Dhabi"],
-    "pays": ["United Arab Emirates"],
+    "villes": ["Dubai", "Abu Dhabi", "Dubai", "Bangkok"],
+    "pays": ["United Arab Emirates", "Thailand"],
     "voyageurs": ["V", "May"]
-  }, {
-    "nom": "Bangkok",
-    "mois": 5,
-    "annee": 2019,
-    "villes": ["Bangkok"],
-    "pays": ["Thailand"],
-    "voyageurs": ["V"]
   }, {
     "nom": "Guadeloupe",
     "mois": 5,
@@ -723,8 +716,15 @@
     "villes": ["Yangon", "Kyaiktiyo", "Yangon", "Bagan", "Mandalay", "Inle Lake", "Yangon"],
     "pays": ["Myanmar"],
     "voyageurs": ["V", "May"]
-  },
-  
+  }, {
+    "nom": "Germanie",
+    "mois": 9,
+    "annee": 2021,
+    "villes": ["Francfort", "Berlin"],
+    "pays": ["Germany"],
+    "voyageurs": ["PM"],
+    "link": "../r1/germany"
+  },  
 
   {
     "nom": "Paris",
@@ -787,6 +787,55 @@
     "mois": 8,
     "annee": 2020,
     "villes": ["Antibes", "Nîmes", "Sète", "Narbonne", "Carcassonne", "Montauban", "St-Cirq-Lapopie"],
+    "pays": ["France"],
+    "voyageurs": ["V", "May"]
+  }, {    
+    "nom": "Paris",
+    "mois": 9,
+    "annee": 2020,
+    "villes": ["Paris"],
+    "pays": ["France"],
+    "voyageurs": ["V", "May"]
+  }, {    
+    "nom": "Montauban",
+    "mois": 12,
+    "annee": 2020,
+    "villes": ["Marseille", "Montauban", "Toulouse", "Montpellier"],
+    "pays": ["France"],
+    "voyageurs": ["V", "May"]
+  }, {    
+    "nom": "Bordeaux",
+    "mois": 5,
+    "annee": 2021,
+    "villes": ["Montauban", "Bordeaux", "Arcachon"],
+    "pays": ["France"],
+    "voyageurs": ["V", "May"]
+  }, {    
+    "nom": "Luberon",
+    "mois": 7,
+    "annee": 2021,
+    "villes": ["Cavaillon"],
+    "pays": ["France"],
+    "voyageurs": ["V", "May"]
+  }, {    
+    "nom": "Montauban",
+    "mois": 8,
+    "annee": 2021,
+    "villes": ["Montauban", "Toulouse", "Andorre"],
+    "pays": ["France"],
+    "voyageurs": ["V", "May"]
+  }, {    
+    "nom": "Marseille",
+    "mois": 9,
+    "annee": 2021,
+    "villes": ["Marseille"],
+    "pays": ["France"],
+    "voyageurs": ["V", "May"]
+  }, {    
+    "nom": "Bretagne",
+    "mois": 9,
+    "annee": 2021,
+    "villes": ["Rennes", "St-Malo", "Perros-Guirec", "Quimper", "Vannes", "Rennes"],
     "pays": ["France"],
     "voyageurs": ["V", "May"]
   }

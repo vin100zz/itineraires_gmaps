@@ -112,7 +112,7 @@ function initMap() {
       var dates = cities[city].trips.map(tripIndex => '> ' + months[trips[tripIndex].mois - 1] + ' ' + trips[tripIndex].annee).join('\n');
 
       if (!coords[city]) {
-        alert("Missing coords for " + city);
+        console.error("Missing coords for " + city);
       } else {
         markers.push({
           object: new google.maps.Marker({
