@@ -726,6 +726,8 @@
     "link": "../r1/germany"
   },  
 
+
+
   {
     "nom": "Paris",
     "mois": 11,
@@ -800,7 +802,7 @@
     "nom": "Montauban",
     "mois": 12,
     "annee": 2020,
-    "villes": ["Marseille", "Montauban", "Toulouse", "Montpellier"],
+    "villes": ["Marseille", "Montauban", "Montpellier"],
     "pays": ["France"],
     "voyageurs": ["V", "May"]
   }, {    
@@ -821,7 +823,7 @@
     "nom": "Montauban",
     "mois": 8,
     "annee": 2021,
-    "villes": ["Montauban", "Toulouse", "Andorre"],
+    "villes": ["Montauban", "Andorre"],
     "pays": ["France"],
     "voyageurs": ["V", "May"]
   }, {    
@@ -836,6 +838,41 @@
     "mois": 9,
     "annee": 2021,
     "villes": ["Rennes", "St-Malo", "Perros-Guirec", "Quimper", "Vannes", "Rennes"],
+    "pays": ["France"],
+    "voyageurs": ["V", "May"]
+  }, {    
+    "nom": "Paris",
+    "mois": 12,
+    "annee": 2021,
+    "villes": ["Paris"],
+    "pays": ["France"],
+    "voyageurs": ["V", "May"]
+  }, {    
+    "nom": "Montauban",
+    "mois": 12,
+    "annee": 2021,
+    "villes": ["Montauban", "Andorre"],
+    "pays": ["France"],
+    "voyageurs": ["V", "May"]
+  }, {    
+    "nom": "Martinique",
+    "mois": 5,
+    "annee": 2022,
+    "villes": ["Fort-de-France"],
+    "pays": ["France"],
+    "voyageurs": ["PM", "V", "May"]
+  }, {    
+    "nom": "Montauban",
+    "mois": 8,
+    "annee": 2022,
+    "villes": ["Montauban", "Andorre"],
+    "pays": ["France"],
+    "voyageurs": ["V", "May"]
+  }, {    
+    "nom": "Amsterdam",
+    "mois": 10,
+    "annee": 2022,
+    "villes": ["Paris", "Amsterdam", "La Haye"],
     "pays": ["France"],
     "voyageurs": ["V", "May"]
   }

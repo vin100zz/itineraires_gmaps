@@ -109,15 +109,13 @@ function initMap() {
 
     // 2. markers
     Object.keys(cities).forEach(city => {
-      var dates = cities[city].trips.map(tripIndex => '> ' + months[trips[tripIndex].mois - 1] + ' ' + trips[tripIndex].annee).join('\n');
-
       if (!coords[city]) {
         console.error("Missing coords for " + city);
       } else {
         markers.push({
+          city: city,
           object: new google.maps.Marker({
-            position: {lat: coords[city][0], lng: coords[city][1]},
-            title: city + '\n' + dates
+            position: {lat: coords[city][0], lng: coords[city][1]}
           }),
           displayFn : () => masks[1] && cities[city].travellers.includes(allTravellers[traveller])
         });
@@ -157,13 +155,25 @@ function initMap() {
 }
 
 function refreshMap() {
-  markers.forEach(marker => marker.object.setMap(marker.displayFn() ? map : null));
+  markers.forEach(marker => {
+    var dates = cities[marker.city].trips
+    .map(tripIndex => trips[tripIndex])
+    .filter(trip => trip.voyageurs.includes(allTravellers[traveller]))
+    .map(trip => '> ' + months[trip.mois - 1] + ' ' + trip.annee).join('\n');
 
-  heatmap.setData(
-    Object.keys(cities)
-    .filter(city => cities[city].travellers.includes(allTravellers[traveller]))
-    .map(city => new google.maps.LatLng(coords[city][0], coords[city][1]))
-  );
+    marker.object.setTitle(marker.city + '\n' + dates);
+    marker.object.setMap(marker.displayFn() ? map : null);
+  });
+
+  if (masks[0]) {
+    heatmap.setData(
+      Object.keys(cities)
+      .filter(city => cities[city].travellers.includes(allTravellers[traveller]))
+      .map(city => new google.maps.LatLng(coords[city][0], coords[city][1]))
+    );
+  } else {
+    heatmap.setData([]);
+  }
 
   paths.forEach(path => path.object.setMap(path.displayFn() ? map : null));
 
