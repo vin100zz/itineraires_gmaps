@@ -724,8 +724,31 @@
     "pays": ["Germany"],
     "voyageurs": ["PM"],
     "link": "../r1/germany"
-  },  
-
+  }, {    
+    "nom": "Martinique",
+    "mois": 5,
+    "annee": 2022,
+    "villes": ["Fort-de-France"],
+    "pays": ["France"],
+    "voyageurs": ["PM", "V", "May"],
+    "link": "../r1/matinik"
+  }, {
+    "nom": "Nil",
+    "mois": 10,
+    "annee": 2022,
+    "villes": ["Louxor", "Assouan"],
+    "pays": ["Egypt"],
+    "voyageurs": ["PM"],
+    "link": "../r1/nil"
+  }, {    
+    "nom": "Singapour & Ha Long",
+    "mois": 3,
+    "annee": 2023,
+    "villes": ["Singapour", "Hanoi", "Ha Long Bay"],
+    "pays": ["Singapore", "Vietnam"],
+    "voyageurs": ["PM", "V", "May", "H"],
+    "link": "../r1/singhanoi"
+  },
 
 
   {
@@ -854,13 +877,6 @@
     "villes": ["Montauban", "Andorre"],
     "pays": ["France"],
     "voyageurs": ["V", "May"]
-  }, {    
-    "nom": "Martinique",
-    "mois": 5,
-    "annee": 2022,
-    "villes": ["Fort-de-France"],
-    "pays": ["France"],
-    "voyageurs": ["PM", "V", "May"]
   }, {    
     "nom": "Montauban",
     "mois": 8,
