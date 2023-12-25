@@ -748,6 +748,22 @@
     "pays": ["Singapore", "Vietnam"],
     "voyageurs": ["PM", "V", "May", "H"],
     "link": "../r1/singhanoi"
+  }, {    
+    "nom": "Javea",
+    "mois": 8,
+    "annee": 2023,
+    "villes": ["Barcelone", "Valence"],
+    "pays": ["Spain"],
+    "voyageurs": ["PM", "V", "May"],
+    "link": "../r1/javea"
+  }, {    
+    "nom": "Emirats",
+    "mois": 11,
+    "annee": 2023,
+    "villes": ["Dubai", "Abu Dhabi", "Al Aïn", "Dibba", "Dubai"],
+    "pays": ["United Arab Emirates", "Oman"],
+    "voyageurs": ["PM"],
+    "link": "../r1/dubai"
   },
 
 
@@ -847,7 +863,7 @@
     "mois": 8,
     "annee": 2021,
     "villes": ["Montauban", "Andorre"],
-    "pays": ["France"],
+    "pays": ["France", "Andorra"],
     "voyageurs": ["V", "May"]
   }, {    
     "nom": "Marseille",
@@ -875,20 +891,48 @@
     "mois": 12,
     "annee": 2021,
     "villes": ["Montauban", "Andorre"],
-    "pays": ["France"],
+    "pays": ["France", "Andorra"],
     "voyageurs": ["V", "May"]
   }, {    
     "nom": "Montauban",
     "mois": 8,
     "annee": 2022,
     "villes": ["Montauban", "Andorre"],
-    "pays": ["France"],
+    "pays": ["France", "Andorra"],
     "voyageurs": ["V", "May"]
   }, {    
     "nom": "Amsterdam",
     "mois": 10,
     "annee": 2022,
     "villes": ["Paris", "Amsterdam", "La Haye"],
+    "pays": ["France"],
+    "voyageurs": ["V", "May"]
+  }, {    
+    "nom": "Montauban",
+    "mois": 5,
+    "annee": 2023,
+    "villes": ["Montauban", "Andorre"],
+    "pays": ["France", "Andorra"],
+    "voyageurs": ["V", "May"]
+  }, {    
+    "nom": "Londres",
+    "mois": 9,
+    "annee": 2023,
+    "villes": ["Londres", "Oxford"],
+    "pays": ["United Kingdom"],
+    "voyageurs": ["V", "May"]
+  }, {    
+    "nom": "Montauban",
+    "mois": 8,
+    "annee": 2023,
+    "villes": ["Montauban"],
+    "pays": ["France"],
+    "voyageurs": ["V", "May"]
+  }, {    
+    "nom": "Montauban",
+    "mois": 12,
+    "annee": 2023,
+    "villes": ["Marseille", "Montauban"],
     "pays": ["France"],
     "voyageurs": ["V", "May"]
   }
