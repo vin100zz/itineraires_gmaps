@@ -765,6 +765,24 @@
     "voyageurs": ["PM"],
     "link": "../r1/dubai"
   },
+  {
+    "nom": "Bangalore",
+    "mois": 4,
+    "annee": 2024,
+    "villes": ["Bangalore"],
+    "pays": ["India"],
+    "voyageurs": ["V"],
+    "link": "../2024/#/chapitre/7/0"
+  },
+  {
+    "nom": "Guadeloupe",
+    "mois": 5,
+    "annee": 2024,
+    "villes": ["Pointe-à-Pitre"],
+    "pays": ["Guadeloupe"],
+    "voyageurs": ["PM", "V", "May"],
+    "link": "../r1/gwada"
+  },
 
 
   {
@@ -933,6 +951,13 @@
     "mois": 12,
     "annee": 2023,
     "villes": ["Marseille", "Montauban"],
+    "pays": ["France"],
+    "voyageurs": ["V", "May"]
+  }, {    
+    "nom": "Montauban",
+    "mois": 5,
+    "annee": 2024,
+    "villes": ["Montauban"],
     "pays": ["France"],
     "voyageurs": ["V", "May"]
   }

@@ -243,7 +243,7 @@ function createTripNode(trip) {
   var date = monthsShort[trip.mois - 1] + ' ' + trip.annee;
   node.innerHTML = `<span>${trip.nom}</span> <span class='date'>${date}</span>`;
   if (trip.link) {
-    node.innerHTML += `<a href='${trip.nom}' target='_blank'>&#129133;</a>`;
+    node.innerHTML += `<a href='${trip.link}' target='_blank'>&#129133;</a>`;
   }
   return node;
 }
